@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ContactFormComponent } from '../contact-form/contact-form.component';
 
 @Component({
   selector: 'header',
-  imports: [],
+  imports: [ContactFormComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
